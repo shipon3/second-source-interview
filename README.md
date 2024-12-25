@@ -12,29 +12,29 @@ laravel v : 11
 
 post api end point 
 1. post create api end point (Method POST) 
-		- base_url/api/posts
+		- [base_url] http://localhost:8000/api/posts
 		- input field like title, content
 2. get post api end point (Method GET)
-		- base_url/api/posts
+		- [base_url] http://localhost:8000/api/posts
 3. view single post api end point (Method GET)
-		- base_url/api/posts/1	
+		- [base_url] http://localhost:8000/api/posts/1	
 
 register api end point 
 1. user register api end point (Method POST) 
-		- base_url/api/register
+		- [base_url] http://localhost:8000/api/register
 		- input field like name, email, password
 
 task api end point 
 1. task create api end point (Method POST) 
-		- base_url/api/tasks
+		- [base_url] http://localhost:8000/api/tasks
 		- input field like title
 2. get task api end point (Method GET)
-		- base_url/api/tasks
+		- [base_url] http://localhost:8000/api/tasks
 3. view single task api end point (Method GET)
-		- base_url/api/tasks/1	
+		- [base_url] http://localhost:8000/api/tasks/1	
 4. complete task api end point (Method PATCH)
-		- base_url/api/tasks/1/complete
+		- [base_url] http://localhost:8000/api/tasks/1/complete
 5. incomplete task api end point (Method PATCH)
-		- base_url/api/tasks/1/incomplete
+		- [base_url] http://localhost:8000/api/tasks/1/incomplete
 6. get all incomplete api end point (Method GET)
-		- base_url/api/incompleted/tasks
+		- [base_url] http://localhost:8000/api/incompleted/tasks
